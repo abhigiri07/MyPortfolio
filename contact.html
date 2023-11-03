@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Contact | Portfolio</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: white;
+            color:black;
+            font-family: 'poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80px;
+            background-color: black;
+            width: 100%;
+            position:fixed ;
+            top: 0;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(153, 153, 226);
+            font-size: 1.05rem;
+        }
+
+        .left {
+            font-size: 2rem;
+            padding-left: 250px;
+            color: aliceblue;
+        }
+
+        .right {
+            padding-left: 70px;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 180px 0px 150px 0px;
+            align-items: center;
+            height: 70vh;
+        }
+
+        /* .firstsection>div {
+            width: 48%;
+            
+        } */
+
+        .rightsection {
+            font-size: 2.5rem;
+            height: 550px;
+            margin-top: 40px;
+            background-color: rgba(108, 108, 108, 0.3);
+        }
+
+        .leftsection img {
+            width: 250px;
+            
+        }
+
+        .form {
+            padding: 55px;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .form-content {
+            margin: 5px;
+        }
+
+        .form-p {
+            font-size: 1.5rem;
+            padding-top: 10px;
+        }
+
+        .input {
+            text-align: center;
+            font-weight: bold;
+            width: 173px;
+            height: 35px;
+            margin-left: 2px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+
+        .form-content-message {
+            padding: 0 0 32px 20px;
+            margin-left: 44px;
+        }
+
+        .form-p-message {
+            margin-bottom: 10px;
+            font-size: 1.5rem;
+            padding-bottom: 10px;
+        }
+
+        .input-message {
+            width: 350px;
+            height: 150px;
+            border-radius: 5px;
+            padding: 5px;
+            font-weight: bold;
+        }
+
+
+        .btn {
+            padding: 8px;
+            background: #6166d3;
+            color: white;
+            border: 0px solid white;
+            border-radius: 30px;
+            font-size: 14px;
+            width: 95px;
+            margin: 0 0 80px 50px;
+            cursor: pointer;
+            position: relative;
+            bottom: 30px;
+        }
+
+        .btn:hover {
+            color: rgb(153, 153, 226);
+            font-size: 0.80rem;
+        }
+        footer {
+    background-color: #000e1a;
+    height: 315px;
+}
+
+.footer {
+    display: flex;
+    padding: 23px 0px 10px 0px;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.footfirst-text {
+    font-family: 'diphylleia', 'serif';
+    font-size: 1.5rem;
+    color: rgb(173, 173, 173);
+    font-weight: bold;
+}
+
+.footsecond-text {
+    font-family: 'diphylleia', 'serif';
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    color: white;
+}
+
+.foot-hr {
+    border: 0;
+    background-color: #bfbfc2;
+    height: 1.2px;
+    width: 110px;
+    margin-left: 450px;
+    
+}
+
+.footer-second {
+    color: gray;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    padding: 10px 5px 10px 5px;
+}
+
+.footer-third {
+    display: flex;
+    justify-content: center;
+    padding: 5px 5px 5px 5px;
+}
+
+.footer-icon {
+    padding-left: 430px;
+    display: flex;
+    width: 15%;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.5rem;
+}
+.footer-icon img{
+    width: 35px;
+    padding: 0 10px;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+}
+
+.link:hover {
+    color: rgb(153, 153, 226);
+    font-size: 1.2rem;
+}
+
+.footer-rights {
+    text-align: center;
+    color: gray;
+    padding: 12px 0;
+}
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Contact</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="firstsection">
+        <div class="leftsection">
+            <img src="contact-us.png" alt="">
+        </div>
+        <div class="rightsection">
+            <div class="form">
+                <div class="form-content">
+                    <p class="form-p">Name*</p>
+                    <input type="text" name="name" class="input" placeholder="Enter your Name" required>
+                </div>
+
+                <div class="form-content">
+                    <p class="form-p">Email*</p>
+                    <input type="email" name="email" class="input" placeholder="Enter your Email" required>
+                </div>
+            </div>
+            <div class="form-content-message">
+                <p class="form-p-message">Message*</p>
+                <textarea id="input" cols="30" rows="5" class="input-message" placeholder="Enter a Messgae"
+                    required></textarea>
+            </div>
+            <div class="form-content">
+                <input type="submit" class="btn">
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <div class="footfirst-text">Abhishek</div>
+                <div class="footsecond-text">Giri</div>
+            </div>
+        </div>
+        <hr class="foot-hr">
+        <div class="footer-second">
+                   Follow Me On
+        </div>
+        <div class="footerthird">
+            <div class="footer-icon">
+                <div><a href="https://www.linkedin.com/in/abhishek-giri-95212b263?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="link"><i class="fa-brands fa-linkedin"></i><img src="linked.webp" alt=""></a></div>
+                <div><a href="https://twitter.com/Abhishe98495406" class="link"><i class="fa-brands fa-twitter"></i><img src="twit.png" alt=""></a></div>
+                <div><a href="https://www.facebook.com/abhi.giri.71216141" class="link"><i class="fa-brands fa-facebook"></i><img src="fb.png" alt=""></a></div>
+                <div><a href="https://github.com/abhigiri07" class="link"><i class="fa-brands fa-Github"></i><img src="github.png" alt=""></a></div>
+                <div><a href="https://www.instagram.com/abhi_giri_7" class="link"><i class="fa-brands fa-instagram"></i><img src="instagram.png" alt=""></a></div>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; Abhishekportfolio.com | All rights reserved
+            <br>
+            <p>Designed by-Abhishek Giri</p>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    
+    <title>About | Portfolio</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: white;
+            color: black;
+            font-family: 'poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: black;
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(153, 153, 226);
+            font-size: 1.rem;
+        }
+
+        .left {
+            font-size: 2.2rem;
+            padding-left: 340px;
+            color: aliceblue;
+        }
+
+        .right {
+            padding-left: 99px;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 150px 0;
+            align-items: center;
+        }
+
+        .firstsection>div {
+            width: 30%;
+        }
+
+        .rightsection img {
+            width: 80%;
+            height: 350px;
+            margin: 20px 0;
+        }
+
+        .leftsection {
+            font-size: 1.5rem;
+        }
+
+        .purple {
+            color: rgb(37, 35, 120);
+        }
+
+        .gray {
+            font-size: 1.2rem;
+            color: rgb(82, 82, 82);
+        }
+
+        .aboutus {
+            font-size: 1.2rem;
+            color: gray;
+        }
+
+        hr {
+            border: 0;
+            background-color: black;
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 70vh;
+        }
+
+        .text-grey {
+            color: grey;
+        }
+
+        .secondsection h1 {
+            font-size: 1.9rem;
+        }
+
+        .secondsection .box {
+            background-color: black;
+            width: 80vw;
+            height: 2px;
+            margin: 100px 0 0 0px;
+            display: flex;
+        }
+
+        .secondsection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: black;
+            margin: 0 145px;
+        }
+
+        .image-top {
+            width: 30px;
+            position: relative;
+            top: -34px;
+            left: -14px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+            font-size: 18px;
+        }
+
+        .vertical-duration {
+            font-size: 0.80rem;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 9px;
+
+        }
+
+        footer {
+            background-color: #000e1a;
+            height: 325px;
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: center;
+
+        }
+
+        .footfirst-text {
+            font-family: 'diphylleia', 'serif';
+            font-size: 1.5rem;
+            color: rgb(173, 173, 173);
+            font-weight: bold;
+        }
+
+        .footsecond-text {
+            font-family: 'diphylleia', 'serif';
+            font-size: 2.5rem;
+            display: flex;
+            justify-content: center;
+            margin-top: 5px;
+            color: white;
+        }
+
+        .footfirst-text:hover {
+            font-size: 2rem;
+        }
+
+        .footsecond-text:hover {
+            font-size: 3rem;
+        }
+
+        .foot-hr {
+            border: 0;
+            background-color: #bfbfc2;
+            height: 1.2px;
+            width: 110px;
+            margin-left: 450px;
+            margin-top: 0px;
+
+        }
+
+        .footer-second {
+            color: gray;
+            display: flex;
+            justify-content: center;
+            margin-top: -15px;
+            font-size: 1.5rem;
+            padding: 10px 5px 10px 5px;
+        }
+
+        .footer-third {
+            display: flex;
+            justify-content: center;
+            padding: 5px 5px 5px 5px;
+        }
+
+        .footer-icon {
+            padding-left: 430px;
+            display: flex;
+            width: 15%;
+            justify-content: space-evenly;
+            align-items: center;
+            font-size: 1.5rem;
+        }
+
+        .footer-icon img {
+            width: 35px;
+            padding: 0 10px;
+        }
+
+        .footer-icon img:hover {
+            width: 50px;
+        }
+
+        .link {
+            text-decoration: none;
+            color: white;
+        }
+
+        .link:hover {
+            color: rgb(153, 153, 226);
+            font-size: 1.2rem;
+        }
+
+        .footer-rights {
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="left">About</div>
+        <div class="right">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="firstsection">
+        <div class="leftsection">
+            <div>Name: <span class="gray">Abhishek Santosh Giri</span></div>
+
+            <div>
+                Address:
+                <span class="gray">Parunagar, Murud TQ.Dist.Latur, Pincode-413510</span>
+            </div>
+            <div>
+                Dateofbirth:
+                <span class="gray">11 June 2004</span>
+            </div>
+            <div>
+                Gender:
+                <span class="gray">Male</span>
+            </div>
+            <div>
+                Email:
+                <span class="gray">abhishekgiri02973@gmail.com</span>
+            </div>
+            <div>
+                Work Experience:
+                <span class="gray">Fresher</span>
+            </div>
+
+            <div>About Me:</div>
+
+            <div class="aboutus">
+                Programmer<span class="purple">|</span> Web Developer
+                <span class="purple">|</span> passionate
+                <span class="purple">|</span> Fast Learner
+                <span class="purple">|</span> Seeking new opportunities to contribute
+                <span class="purple">|</span> Gain practical knownledge good communication skill
+                <span class="purple">|</span> Flexible with any working environment
+            </div>
+        </div>
+        <div class="rightsection">
+            <img src="abhi1.jpg" alt="">
+        </div>
+
+    </section>
+
+    <hr />
+
+    <section class="secondsection">
+        <span class="text-gray">My Education till date</span>
+        <h1>Education & Degree</h1>
+        <div class="box">
+            <div class="vertical">
+                <img src="degree1.png" alt="" class="image-top" />
+                <div class="vertical-title">BCS(Bachelor Of Computer Science
+                    <span class="vertical-duration">(2022-2025)</span>
+                </div>
+
+                <div class="vertical-desc">College Of Computer Science And Information Technology, Latur</div>
+            </div>
+
+            <div class="vertical">
+                <img src="degree1.png" alt="" class="image-top" />
+                <div class="vertical-title">HSC
+                    <span class="vertical-duration">(2021-2022)</span>
+                </div>
+
+                <div class="vertical-desc">JVM Jr. College, Murud </div>
+            </div>
+
+            <div class="vertical">
+                <img src="degree1.png" alt="" class="image-top" />
+                <div class="vertical-title">SSC
+                    <span class="vertical-duration">(2019-2020)</span>
+                </div>
+
+                <div class="vertical-desc">JVM School, Murud</div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <div class="footfirst-text">Abhishek</div>
+                <div class="footsecond-text">Giri</div>
+            </div>
+        </div>
+        <hr class="foot-hr">
+        <div class="footer-second">
+            Follow Me On
+        </div>
+        <div class="footerthird">
+            <div class="footer-icon">
+                <div><a href="https://www.linkedin.com/in/abhishek-giri-95212b263?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                        class="link"><i class="fa-brands fa-linkedin"></i><img src="linked.webp" alt=""></a></div>
+                <div><a href="https://twitter.com/Abhishe98495406" class="link"><i class="fa-brands fa-twitter"></i><img
+                            src="twit.png" alt=""></a></div>
+                <div><a href="https://www.facebook.com/abhi.giri.71216141" class="link"><i
+                            class="fa-brands fa-facebook"></i><img src="fb.png" alt=""></a></div>
+                <div><a href="https://github.com/abhigiri07" class="link"><i class="fa-brands fa-Github"></i><img
+                            src="github.png" alt=""></a></div>
+                <div><a href="https://www.instagram.com/abhi_giri_7" class="link"><i
+                            class="fa-brands fa-instagram"></i><img src="instagram.png" alt=""></a></div>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; Abhishekportfolio.com | All rights reserved
+            <br>
+            <p>Designed by-Abhishek Giri</p>
+        </div>
+    </footer>
+</body>
+
+</html>
